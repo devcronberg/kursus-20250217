@@ -1,4 +1,5 @@
 ﻿
+
 List<int> l = new List<int>() { 5, 1, 51, 7, 1, 56, 36, 5 };
 
 int i = l.FindIndex(Find);
@@ -10,7 +11,8 @@ Console.WriteLine(i);
 //}
 l.ForEach(Console.WriteLine);
 
-bool Find(int a ) {
+bool Find(int a)
+{
     if (a == 56)
         return true;
     return false;
@@ -30,14 +32,16 @@ DelegateStringIntBool b = Test1;
 bool res = b.Invoke("", 1);
 
 
-bool Test1(string b, int c) {
+bool Test1(string b, int c)
+{
     return false;
 }
 
 
 
 
-void Beregn(int a, int b, DelegateIntIntInt f) {
+void Beregn(int a, int b, DelegateIntIntInt f)
+{
     Console.WriteLine($"Resultat {f.Invoke(a, b)}");
 }
 
@@ -49,7 +53,8 @@ var beregning = FindBeregning();
 Beregn(5, 5, FindBeregning());
 //Beregn(6, 6, (a,c) => a+c);
 
-int LægSammen(int a, int b) {
+int LægSammen(int a, int b)
+{
     return a + b;
 }
 
@@ -58,7 +63,8 @@ int TrækFra(int a, int b)
     return a - b;
 }
 
-DelegateIntIntInt FindBeregning() {
+DelegateIntIntInt FindBeregning()
+{
     if (DateTime.Now.Millisecond % 2 == 0)
         return new DelegateIntIntInt(TrækFra);
     else
@@ -74,4 +80,3 @@ public delegate int DelegateIntIntInt(int a, int b);
 public delegate bool DelegateStringIntBool(string a, int b);
 
 public delegate bool DelegateString(string a);
-
