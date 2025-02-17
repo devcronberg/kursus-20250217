@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P202502171345-Indbyggede", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P202502171430-Lambda", "P202502171430-Lambda\P202502171430-Lambda.csproj", "{FD60E1B3-531D-4394-A722-2AC63A404AD9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P202502171510-Terning-Event", "P202502171510-Terning-Event\P202502171510-Terning-Event.csproj", "{F9BBBE94-0EF2-4E63-A9F5-B7406D6EDC67}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{FD60E1B3-531D-4394-A722-2AC63A404AD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD60E1B3-531D-4394-A722-2AC63A404AD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD60E1B3-531D-4394-A722-2AC63A404AD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9BBBE94-0EF2-4E63-A9F5-B7406D6EDC67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9BBBE94-0EF2-4E63-A9F5-B7406D6EDC67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9BBBE94-0EF2-4E63-A9F5-B7406D6EDC67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9BBBE94-0EF2-4E63-A9F5-B7406D6EDC67}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
