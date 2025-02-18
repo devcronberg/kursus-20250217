@@ -26,7 +26,7 @@ Terning t = new Terning();
 public class Terning
 {
 
-    public Func<int, int, int> TilfældigDelegate;
+    public Func<int, int, int>? TilfældigDelegate;
 
     public int Værdi { get; private set; }
 

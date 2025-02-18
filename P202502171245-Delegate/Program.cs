@@ -19,7 +19,7 @@ bool Find(int a)
 }
 
 //DelegateVoid a = new DelegateVoid(Console.Beep);
-DelegateVoid a = Console.Beep;
+DelegateVoid? a = Console.Beep;
 a += Console.WriteLine;
 a += Console.WriteLine;
 a += Console.WriteLine;

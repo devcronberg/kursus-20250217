@@ -24,10 +24,10 @@ public class Terning
 
     private int antalSeksere;
     public int Værdi { get; set; }
-    public Func<int, int, int> RandomDelegate { get; set; } = null;
-    public Action<string> PrintDelegate { get; set; }
+    public Func<int, int, int>? RandomDelegate { get; set; } = null;
+    public Action<string>? PrintDelegate { get; set; }
 
-    public event Action<int> ErSekserEvent;
+    public event Action<int>? ErSekserEvent;
 
 
     //public int Test;
@@ -57,7 +57,7 @@ public class Terning
 
     public void Print()
     {
-        PrintDelegate($"Terningens værdi er: {Værdi}");
+        PrintDelegate?.Invoke($"Terningens værdi er: {Værdi}");
     }
 }
 

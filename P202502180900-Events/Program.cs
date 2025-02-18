@@ -10,8 +10,8 @@ m.Start();
 class Maskine
 {
     private DateTime sidsteStart;
-    public event Action<DateTime> StartEvent;
-    public event Action<object, MitEventArg> StopEvent;
+    public event Action<DateTime>? StartEvent;
+    public event Action<object, MitEventArg>? StopEvent;
 
     public void Start() {
         // log
