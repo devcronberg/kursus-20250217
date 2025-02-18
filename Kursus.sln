@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P202502171510-Terning-Event
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P202502180900-Events", "P202502180900-Events\P202502180900-Events.csproj", "{4832AC99-E212-4BDB-A5E9-8E0D34441520}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P202502181000-linq", "P202502181000-linq\P202502181000-linq.csproj", "{81425038-F83A-43D7-9F8C-D24853B6033A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{4832AC99-E212-4BDB-A5E9-8E0D34441520}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4832AC99-E212-4BDB-A5E9-8E0D34441520}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4832AC99-E212-4BDB-A5E9-8E0D34441520}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81425038-F83A-43D7-9F8C-D24853B6033A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81425038-F83A-43D7-9F8C-D24853B6033A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81425038-F83A-43D7-9F8C-D24853B6033A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81425038-F83A-43D7-9F8C-D24853B6033A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
