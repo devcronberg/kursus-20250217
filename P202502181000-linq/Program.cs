@@ -58,11 +58,11 @@ var res6 = filer.Select(i => new { i.Name, i.Length } ).ToList();
 
 var res7 = filer.Skip(100).Take(10).ToList();
 Console.WriteLine();
-bool Test(int i) {
-    return i < 5;
-}
+//bool Test(int i) {
+//    return i < 5;
+//}
 
 class MinKlasse {
-    public string Navn { get; set; }
+    public string? Navn { get; set; }
     public long Længde { get; set; }
 }
